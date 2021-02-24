@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Stick";
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #ffee00;
+}
+ul
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+}
+.logo
+{
+    font-size: 35px;
+    letter-spacing: 5px;
+
+}
+.navLink
+{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
